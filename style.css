@@ -1,0 +1,1031 @@
+
+body {
+margin:0;
+background: url("https://cdn.pbrd.co/images/GO7LK4j.jpg") no-repeat;
+background-size: cover;
+padding: 0;
+margin:0;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+#phone {
+    width: 18.75rem;
+    height: 37rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin:1.2rem auto;
+    border: .6px solid grey;
+    border-radius: 3.12em;
+    box-shadow:0 0 2rem 0 rgba(0,0,0,0.7);
+
+
+
+
+}
+
+#phone #borderwhite {
+background: black;
+    width: 18.75rem;
+    height: 37rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin:auto;
+    border-radius: 3.12rem;
+    border: .5px solid white;
+}
+
+
+#phone #borderwhite #borderblack {
+
+    width: 18.90rem;
+    height: 37.1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin:auto;
+    border-radius: 3.12rem;
+    border: .5px solid black;
+ 
+}
+
+
+#phone #button-top {
+    width: 2.1rem;
+    height: .10rem;
+    position:absolute;
+    top:-0.32rem;
+    left:13.7rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+    cursor:pointer;
+}
+
+#phone #button-top:active {
+    width: 2.1rem;
+    height: .10rem;
+    position:absolute;
+    top:-0.40rem;
+    left:13.7rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+}
+
+#phone #button-left1 {
+    width: 0.15rem;
+    height: 1.4rem;
+    position:absolute;
+    top:4.39rem;
+    left:-.25rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5% 0 5% 0;
+    border: 1.3px solid grey;
+    cursor:pointer;
+
+}
+
+#phone #button-left1:active {
+    width: 0.15rem;
+    height: 1.4rem;
+    position:absolute;
+    top:4.39rem;
+    left:-.29rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+
+}
+
+#phone #button-left2 {
+    width: 0.15rem;
+    height: 1.4rem;
+    position:absolute;
+    top:7.5rem;
+    left:-.25rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+    cursor:pointer;
+}
+
+#phone #button-left2:active {
+    width: 0.15rem;
+    height: 1.4rem;
+    position:absolute;
+    top:7.5rem;
+    left:-.29rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+}
+
+#phone #button-left3 {
+    width: 0.15rem;
+    height: 1.4rem;
+    position:absolute;
+    top:10.61rem;
+    left:-.25rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+    cursor:pointer;
+}
+
+#phone #button-left3:active {
+    width: 0.15rem;
+    height: 1.4rem;
+    position:absolute;
+    top:10.61rem;
+    left:-.29rem;
+    right:0;
+    bottom:0;
+    background: black;
+    border-radius: 5%;
+    border: 1.3px solid grey;
+}
+
+
+
+#phone #screen {
+    height: 28rem;
+    width: 17rem;
+    position: absolute;
+    top:0; left:0;right:0;bottom:0;
+    margin: auto;
+    border-radius: .18rem;
+}
+
+#phone .top {
+    background:grey;
+    height:1.3rem;
+}
+
+#phone .top #top-functions span {
+    color:white;
+    height: .5rem;
+    width:.5rem;
+    position:relative;
+    top:.05rem;
+    left:.3rem;
+  font-size: 1rem;
+
+}
+
+
+#phone .top #top-functions span#carrier {
+font-size: .8rem;
+
+}
+
+#phone .top #top-functions span#time {
+font-size: .8rem;
+margin-left: 1.25rem;
+
+}
+
+#phone .top #top-functions span#percent {
+font-size: .8rem;
+margin-left: 3.2rem;
+
+}
+
+#phone .top #top-functions span#battery .fa.fa-battery-half {
+font-size: .8rem;
+color: white;
+background-color: transparent;
+}
+
+
+
+/* First row apps */
+
+.first-row-apps {
+    
+    position: absolute;
+    height: 4.5rem;
+    width:17rem;
+    top:1.3rem;
+    background:#338587;
+
+}
+
+
+.first-row-apps #calendar-app {
+    height: 2.5rem;
+    width:2.5rem;
+    position:relative;
+    top: .5rem;
+    left: 1.2rem;
+    background: url("https://cdn.pbrd.co/images/GO7PMHx.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+.first-row-apps #calendar-app span {
+    position: absolute;
+    top:2.8rem;
+    left: -.3rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.first-row-apps #calendar-app:active {
+    top: .4rem;
+}
+
+
+
+.first-row-apps #photos-app {
+    height: 2.5rem;
+    width:2.5rem;
+    background: url("https://cdn.pbrd.co/images/GO7PFWk.png") no-repeat;
+    background-size:cover;
+    background-color: white;
+    border-radius:30%;
+    position:relative;
+    top: -2rem;
+    left: 5.1rem;
+    cursor: pointer;
+    
+}
+
+.first-row-apps #photos-app span {
+    position: absolute;
+    top:2.8rem;
+    left: .03rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.first-row-apps #photos-app:active {
+    top:-2.1rem;
+}
+
+.first-row-apps #camera-app {
+    height: 2.95rem;
+    width:2.8rem;
+    background: url("https://cdn.pbrd.co/images/GO7PxOz.png") no-repeat;
+    background-size:cover;
+    position:relative;
+    top: -4.69rem;
+    left: 9rem;
+    cursor: pointer;
+}
+
+.first-row-apps #camera-app span {
+    position: absolute;
+    top:2.99rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+    left: .12rem;
+}
+
+.first-row-apps #camera-app:active {
+    top: -4.79rem;
+}
+
+
+.first-row-apps #clock-app {
+    height: 2.99rem;
+    width:2.80rem;
+    background: url("https://cdn.pbrd.co/images/GO7PqmS.png") no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -7.65rem;
+    left: 13.3rem;
+    cursor: pointer;
+}
+
+.first-row-apps #clock-app span {
+    position: absolute;
+    top:2.99rem;
+    left: .6rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+
+}
+
+.first-row-apps #clock-app:active {
+    top:-7.75rem;
+}
+
+/* Second row apps */
+
+.second-row-apps {
+    
+    position: absolute;
+    height: 4.5rem;
+    width:17rem;
+    top:5.8rem;
+    background:#338587;
+
+}
+
+.second-row-apps #weather-app {
+    height: 2.5rem;
+    width:2.5rem;
+    position:relative;
+    top: .5rem;
+    left: 1.2rem;
+    background: url("https://cdn.pbrd.co/images/GO7PhsA.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.second-row-apps #weather-app span {
+    position: absolute;
+    top:2.8rem;
+    left: -.25rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.second-row-apps #weather-app:active {
+    top: .4rem;
+}
+
+.second-row-apps #maps-app {
+    height: 2.5rem;
+    width:2.5rem;
+    background: url("https://cdn.pbrd.co/images/GO7P9w2.png") no-repeat;
+    background-size:cover;
+    
+    border-radius:30%;
+    position:relative;
+    top: -2rem;
+    left: 5.1rem;
+    cursor: pointer;
+}
+
+.second-row-apps #maps-app span {
+    position: absolute;
+    top:2.8rem;
+    left: .25rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.second-row-apps #maps-app:active {
+    top: -2.1rem;
+}
+
+
+.second-row-apps #contacts-app {
+    height: 2.95rem;
+    width:2.8rem;
+    background: url("https://cdn.pbrd.co/images/GO7OZLH.png") no-repeat;
+    background-size:cover;
+    position:relative;
+    top: -4.69rem;
+    left: 9rem;
+    cursor: pointer;
+}
+
+.second-row-apps #contacts-app span {
+    position: absolute;
+    top:2.99rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+    left: -.1rem;
+}
+
+.second-row-apps #contacts-app:active {
+    top: -4.79rem;
+}
+
+.second-row-apps #videos-app {
+    height: 2.99rem;
+    width:2.80rem;
+    background: url("https://cdn.pbrd.co/images/GO7OR1ax.png") no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -7.65rem;
+    left: 13.3rem;
+    cursor: pointer;
+}
+
+.second-row-apps #videos-app span {
+    position: absolute;
+    top:2.99rem;
+    left: .3rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.second-row-apps #videos-app:active {
+    top:-7.75rem;
+}
+
+/* Third row apps */
+
+
+.third-row-apps {
+    position: absolute;
+    height: 4.5rem;
+    width:17rem;
+    top:14.8rem;
+    background:#338587;
+    
+}
+
+
+
+.third-row-apps {
+    position: absolute;
+    height: 4.5rem;
+    width:17rem;
+    top:10.3rem;
+    background:#338587;
+}
+
+.third-row-apps #stocks-app {
+    height: 2.5rem;
+    width:2.5rem;
+    position:relative;
+    top: .5rem;
+    left: 1.2rem;
+    background: url("https://cdn.pbrd.co/images/GO7OEIa.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.third-row-apps #stocks-app span {
+    position: absolute;
+    top:2.8rem;
+    left: -.1rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.third-row-apps #stocks-app:active {
+    top: .4rem;
+}
+
+
+.third-row-apps #wallet-app {
+    height: 2.5rem;
+    width:2.5rem;
+    background: url("https://cdn.pbrd.co/images/GO7OtzE.png") no-repeat;
+    background-size:cover;
+    border-radius:30%;
+    position:relative;
+    top: -2rem;
+    left: 5.1rem;
+    cursor: pointer;
+}
+
+.third-row-apps #wallet-app span {
+    position: absolute;
+    top:2.8rem;
+    left: .1rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.third-row-apps #wallet-app:active {
+    top: -2.1rem;
+}
+
+.third-row-apps #app-store-app {
+    height: 2.95rem;
+    width:2.8rem;
+    background: url("https://cdn.pbrd.co/images/GO7OlKJ.png") no-repeat;
+    background-size:cover;
+    position:relative;
+    top: -4.69rem;
+    left: 9rem;
+    cursor: pointer;
+}
+
+.third-row-apps #app-store-app span {
+    position: absolute;
+    top:2.99rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+    left: -.1rem;
+}
+
+.third-row-apps #app-store-app:active {
+    top:-4.79rem;
+}
+
+
+.third-row-apps #itunes-store-app {
+    height: 3.25rem;
+    width:2.99rem;
+    background: url("https://cdn.pbrd.co/images/GO7OdIA.png") no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -7.75rem;
+    left: 13.2rem;
+    cursor: pointer;
+}
+
+.third-row-apps #itunes-store-app span {
+    position: absolute;
+    top:3.1rem;
+    left: .5em;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.third-row-apps #itunes-store-app:active {
+    top: -7.85rem;
+}
+
+
+
+/* Fourth row apps */
+
+.fourth-row-apps {
+    position: absolute;
+    height: 4.5rem;
+    width:17rem;
+    top:14.8rem;
+    background:#338587;
+}
+
+
+.fourth-row-apps #news-app {
+    height: 2.5rem;
+    width:2.6rem;
+    position:relative;
+    top: .5rem;
+    left: 1.2rem;
+    background: url("https://cdn.pbrd.co/images/GO7MVC8.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.fourth-row-apps #news-app span {
+    position: absolute;
+    top:2.75rem;
+    left: .3rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.fourth-row-apps #news-app:active {
+    top:.40rem;
+}
+
+
+.fourth-row-apps #reminders-app {
+    height: 2.5rem;
+    width:2.5rem;
+    background: url("https://cdn.pbrd.co/images/GO7NnyQ.png") no-repeat;
+    background-size:cover;
+    
+    border-radius:30%;
+    position:relative;
+    top: -2rem;
+    left: 5.1rem;
+    cursor: pointer;
+}
+
+.fourth-row-apps #reminders-app span {
+    position: absolute;
+    top:2.8rem;
+    left: -.7rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.fourth-row-apps #reminders-app:active {
+top: -2.1rem;
+}
+
+.fourth-row-apps #notes-app {
+    height: 2.95rem;
+    width:2.8rem;
+    background: url("https://cdn.pbrd.co/images/GO7ND1y.png") no-repeat;
+    background-size:cover;
+    position:relative;
+    top: -4.69rem;
+    left: 9rem;
+    cursor: pointer;
+}
+
+.fourth-row-apps #notes-app span {
+    position: absolute;
+    top:2.99rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+    left: .5rem;
+}
+
+.fourth-row-apps #notes-app:active {
+    top: -4.79rem;
+}
+
+
+.fourth-row-apps #health-app {
+    height: 2.69rem;
+    width:2.69rem;
+    background: url("https://cdn.pbrd.co/images/GO7NLha.png") no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -7.5rem;
+    left: 13.55rem;
+    cursor: pointer;
+}
+
+.fourth-row-apps #health-app span {
+    position: absolute;
+    top:2.85rem;
+    left: .25em;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+
+}
+
+.fourth-row-apps #health-app:active {
+    top: -7.6rem;
+}
+
+/*Fifth */
+
+.fifth-row-apps {
+    position: absolute;
+    height: 5.1rem;
+    width:17rem;
+    top:19.1rem;
+    background:#338587;
+}
+
+
+.fifth-row-apps #settings-app {
+    height: 2.8rem;
+    width:2.7rem;
+    position:relative;
+    top: .38rem;
+    left: 1.2rem;
+    background: url("https://cdn.pbrd.co/images/GO7M64d.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+
+    
+}
+
+.fifth-row-apps #settings-app span {
+    position: absolute;
+    top:2.9rem;
+    left: .03rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.fifth-row-apps #settings-app:active {
+    top: .28rem;
+}
+
+
+.fifth-row-apps #kindle-app {
+    height: 2.6rem;
+    width:2.6rem;
+    background: url("https://cdn.pbrd.co/images/GO7MgEb.png") no-repeat;
+    background-size:cover;
+    border-radius:30%;
+    position:relative;
+    top: -2.33rem;
+    left: 5.1rem;
+    cursor: pointer;
+    
+}
+
+.fifth-row-apps #kindle-app span {
+    position: absolute;
+    top:2.83rem;
+    left: .1rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.fifth-row-apps #kindle-app:active {
+    top: -2.43rem;
+}
+
+.fifth-row-apps #calculator-app {
+    height: 3.1rem;
+    width:2.8rem;
+    background: url("https://cdn.pbrd.co/images/GO7MA5G.png") no-repeat;
+    background-size:cover;
+    position:relative;
+    top: -5.1rem;
+    left: 9rem;
+    cursor: pointer;
+}
+
+.fifth-row-apps #calculator-app span {
+    position: absolute;
+    top:3rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+    left: -.3rem;
+}
+
+.fifth-row-apps #calculator-app:active {
+    top: -5.2rem;
+}
+
+
+.fifth-row-apps #ibook-app {
+    height: 3.2rem;
+    width:3.1rem;
+    background: url("https://cdn.pbrd.co/images/GO7MJlV.png") no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -8.25rem;
+    left: 13.4rem;
+    cursor: pointer;
+}
+
+.fifth-row-apps #ibook-app span {
+    position: absolute;
+    top:3.05rem;
+    left: .7em;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.fifth-row-apps #ibook-app:active {
+    top: -8.35rem;
+}
+
+
+.top #slider1 {
+
+    position:absolute;
+    top:23.15rem;
+    left:7.8rem;
+    color: #8599a6;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.top #slider2 {
+    color:white;
+    position:absolute;
+    top:23.15rem;
+    left:8.5rem;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+.bottom-row-apps {
+    
+    position: absolute;
+    height: 4.5rem;
+    width:17rem;
+    bottom:0;
+    background: linear-gradient(#16222A, #182848);
+    top:24.2rem;
+
+}
+
+.bottom-row-apps #calls {
+    height: 2.5rem;
+    width:2.5rem;
+    background: black;
+    position:relative;
+    top: .6rem;
+    left: 1.2rem;
+    background: url("https://cdn.pbrd.co/images/GO7Qnbp.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+.bottom-row-apps #calls span {
+    position: absolute;
+    top:2.8rem;
+    left: .1rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.bottom-row-apps #calls:active {
+    top: .5rem;
+}
+
+.bottom-row-apps #safari {
+    height: 2.5rem;
+    width:2.5rem;
+    background: url("https://cdn.pbrd.co/images/GO7Lnd7.png") no-repeat;
+    background-size:cover;
+    background-color: white;
+    border-radius:30%;
+    position:relative;
+    top: -1.9rem;
+    left: 5.1rem;
+    cursor: pointer;
+    
+}
+
+.bottom-row-apps #safari span {
+    position: absolute;
+    top:2.8rem;
+    left: .25rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+}
+
+.bottom-row-apps #safari:active {
+    top:-2rem;
+}
+
+.bottom-row-apps #mail {
+    height: 2.95rem;
+    width:2.8rem;
+    background: url("https://cdn.pbrd.co/images/GO7Q8su.png") no-repeat;
+    background-size:cover;
+    position:relative;
+    top: -4.59rem;
+    left: 9rem;
+    cursor: pointer;
+    
+}
+
+.bottom-row-apps #mail span {
+    position: absolute;
+    top:2.99rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+    left: .65rem;
+}
+
+.bottom-row-apps #mail:active {
+    top: -4.69rem;
+}
+
+.bottom-row-apps #music {
+    height: 2.99rem;
+    width:2.80rem;
+    background: url("https://cdn.pbrd.co/images/GO7Q0DS.png") no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -7.54rem;
+    left: 13.3rem;
+    cursor: pointer;
+    
+}
+
+.bottom-row-apps #music span {
+    position: absolute;
+    top:2.99rem;
+    left: .4rem;
+    color:white;
+    font-size:.8rem;
+    font-weight:300;
+
+}
+
+.bottom-row-apps #music:active {
+    top:-7.64rem;
+}
+
+
+#homebutton {
+    background: black;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    bottom: -3.4rem;
+    right: 0;
+    left:0;
+    margin: auto;
+    border: 1px solid #404548;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+#homebutton:active {
+    background: black;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    bottom: -3.3rem;
+    right: 0;
+    left:0;
+    margin: auto;
+    border: 1px solid #404548;
+    border-radius: 50%;
+
+}
+
+#camera {
+    background: #404548;
+    height: .5rem;
+    width: .5rem;
+    position: absolute;
+    top:-3.5rem;
+    right: 0;
+    left:0;
+    margin: auto;
+    border: 1px solid #404548;
+    border-radius: 50%;
+}
+
+#sound {
+    background: #404548;
+    height: .2rem;
+    width: 3rem;
+    position: absolute;
+    top:-2.3rem;
+    right: 0;
+    left:0;
+    margin: auto;
+    border-radius: .3rem;
+    border: 1px solid grey;
+    
+}
+
+
+    
+
+.first-row-apps,.second-row-apps,.third-row-apps,.fourth-row-apps, .fifth-row-apps, .sixth-row-apps {
+    background: rgb(18, 44, 52);
+}
+
+
+
+@media all and (min-width:321px) and (max-width: 768px) {
+#phone .top #top-functions span {
+  font-size: .5rem;
+  top:.05rem;
+  }
+  
+  #phone .top #top-functions span#signal {
+  top:.01rem;
+  }
+  
+
+.top #slider1 {
+font-size: .6rem;
+top:23.3rem;
+}
+
+.top #slider2 {
+font-size: .6rem;
+top:23.3rem;
+}
+  
+#phone .top #top-functions span#time {
+
+margin-left: 1.85rem;
+
+}
+}
